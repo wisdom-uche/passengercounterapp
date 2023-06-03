@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    background-image: url('/assets/img/station.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 75vh;
+}
+
+.container button:active {
+    transform: scale(0.95);
+}
